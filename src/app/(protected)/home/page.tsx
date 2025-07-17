@@ -1,7 +1,10 @@
+"use client";
 import Header from "@/components/Header"
 import { AiFillLike } from "react-icons/ai";
 import { FaComments } from "react-icons/fa";
 import { BiRepost } from "react-icons/bi";
+import { GiFeather } from "react-icons/gi";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -129,9 +132,15 @@ export default function Home() {
         </div>
       </div>
       <hr className="mt-2 text-gray-300" />
-
-
       
+      
+      
+      {/* create post button */}
+      <div className="w-fit bg-blue-500 z-100 fixed right-6 bottom-6 rounded-full">
+        <Link href="/post">
+          <GiFeather className="text-5xl text-white p-2" />
+        </Link>
+      </div>
     </div>
   )
 }
