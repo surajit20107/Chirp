@@ -1,4 +1,7 @@
 import Header from "@/components/Header"
+import { AiFillLike } from "react-icons/ai";
+import { FaComments } from "react-icons/fa";
+import { BiRepost } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -8,26 +11,127 @@ export default function Home() {
       {/* all posts */}
       <div className="my-4 px-2">
         <div className="flex items-center gap-2">
-          <img src="defaultProfile.webp" className="h-7 w-7 rounded-full object-cover" />
-          <h3>Surajit</h3>
+          <img src="/temp/tony.webp" className="h-7 w-7 rounded-full object-cover" />
+          <h3 className="font-bold">Tony Stark</h3>
         </div>
         <p className="mt-2 md:px-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         </p>
-        <img src="https://placehold.co/600x400" alt="placeholder" className="p-2 rounded-md mx-auto md:mt-4" />
+        <img src="https://placehold.co/600x400" alt="placeholder" className="p-2 rounded-md mx-auto md:mt-4 md:w-5/6" />
+        <div className="mt-2 px-8 flex justify-between mx-auto md:w-3/4 relative">
+          <div>
+            <AiFillLike className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <FaComments className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div>
+            <BiRepost className="text-xl cursor-pointer md:text-5xl" />
+          </div>
+        </div>
       </div>
+      <hr className="mt-2 text-gray-300" />
+
+
+
+
+
       
 
       <div className="my-4 px-2">
         <div className="flex items-center gap-2">
-          <img src="defaultProfile.webp" className="h-7 w-7 rounded-full object-cover" />
-          <h3>Surajit</h3>
+          <img src="/temp/bruce.webp" className="h-7 w-7 rounded-full object-cover" />
+          <h3 className="font-bold">Bruce Banner</h3>
         </div>
         <p className="mt-2 md:px-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         </p>
-        <img src="https://placehold.co/600x400" alt="placeholder" className="p-2 rounded-md mx-auto md:mt-4" />
+        <img src="https://placehold.co/600x400" alt="placeholder" className="p-2 rounded-md mx-auto md:mt-4 md:w-5/6" />
+        <div className="mt-2 px-8 flex justify-between mx-auto md:w-3/4 relative">
+          <div>
+            <AiFillLike className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <FaComments className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div>
+            <BiRepost className="text-xl cursor-pointer md:text-5xl" />
+          </div>
+        </div>
       </div>
+      <hr className="mt-2 text-gray-300" />
+
+      <div className="my-4 px-2">
+        <div className="flex items-center gap-2">
+          <img src="/temp/tony.webp" className="h-7 w-7 rounded-full object-cover" />
+          <h3 className="font-bold">Tony Stark</h3>
+        </div>
+        <p className="mt-2 md:px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+        <img src="https://placehold.co/600x400" alt="placeholder" className="p-2 rounded-md mx-auto md:mt-4 md:w-5/6" />
+        <div className="mt-2 px-8 flex justify-between mx-auto md:w-3/4 relative">
+          <div>
+            <AiFillLike className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <FaComments className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div>
+            <BiRepost className="text-xl cursor-pointer md:text-5xl" />
+          </div>
+        </div>
+      </div>
+      <hr className="mt-2 text-gray-300" />
+
+      <div className="my-4 px-2">
+        <div className="flex items-center gap-2">
+          <img src="/temp/bruce.webp" className="h-7 w-7 rounded-full object-cover" />
+          <h3 className="font-bold">Bruce Banner</h3>
+        </div>
+        <p className="mt-2 md:px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        
+        <div className="mt-2 px-8 flex justify-between mx-auto md:w-3/4 relative">
+          <div>
+            <AiFillLike className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <FaComments className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div>
+            <BiRepost className="text-xl cursor-pointer md:text-5xl" />
+          </div>
+        </div>
+      </div>
+      <hr className="mt-2 text-gray-300" />
+
+      <div className="my-4 px-2">
+        <div className="flex items-center gap-2">
+          <img src="/temp/bruce.webp" className="h-7 w-7 rounded-full object-cover" />
+          <h3 className="font-bold">Bruce Banner</h3>
+        </div>
+        <p className="mt-2 md:px-4">
+          Lorem ipsum dolor sit amet, consectetur hsn adipiscing elit. Sed do eiusmod tempor is very incididunt ut labore et dolore magna aliqua.
+        </p>
+        
+        <div className="mt-2 px-8 flex justify-between mx-auto md:w-3/4 relative">
+          <div>
+            <AiFillLike className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <FaComments className="text-xl cursor-pointer md:text-4xl" />
+          </div>
+          <div>
+            <BiRepost className="text-xl cursor-pointer md:text-5xl" />
+          </div>
+        </div>
+      </div>
+      <hr className="mt-2 text-gray-300" />
+
+
+      
     </div>
   )
 }
